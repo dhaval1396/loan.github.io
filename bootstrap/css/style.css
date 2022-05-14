@@ -1,0 +1,1283 @@
+:root {
+    --common-bg: #f6f4ec;
+    --black-color: #000000;
+    --main-color: #E4701E;
+    --heading-color: #2d2f30;
+    --gray-color: #898787;
+}
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+}
+.container {
+    max-width: 1400px !important;
+}
+.common-bg {
+    background-color: var(--common-bg);
+}
+.common-inner-heading {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: var(--black-color);
+}
+.align-center-div {
+    display: grid;
+    align-items: center;
+}
+.common-para {
+    color: var(--gray-color);
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.common-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.common-btn-div .btn {
+    border: 2px solid var(--main-color);
+    color: var(--white);
+    background-color: var(--main-color);
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 25px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: 0.3s;
+    box-shadow: none;
+    text-transform: uppercase;
+    min-width: 180px;
+}
+.common-btn-div .btn:hover {
+    transform: translateY(-8px);
+}
+.common-heading-text {
+	color: var(--black-color);
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.padding-left-5 {
+    padding-left: 5%;
+}
+
+/*--- Header CSS  Start ---*/
+.header-main-div {
+    /* background-color: var(--white); */
+}
+.header-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sticky-header {
+	box-shadow: 0 3px 6px #00000026, 0 3px 6px #00000021;
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
+}
+.header-logo-text {
+    color: var(--main-color);
+    font-size: 32px;
+    margin-bottom: 0px;
+    letter-spacing: 1.5px;
+    font-family: 'Rowdies', cursive;
+    font-weight: 600;
+}
+ul.navbar-nav {
+    align-items: center;
+}
+nav .navbar-nav .nav-item {
+    margin-left: 20px;
+}
+nav .navbar-nav .nav-item .nav-link {
+    color: var(--black-color);
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: var(--main-color);
+}
+.bottom-header-div {
+    background-color: var(--white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bottom-header-div .navbar {
+    padding: 0px;
+}
+.top-header-div {
+    background-color: var(--main-color);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.menu-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu-div .menu-text {
+    margin: 0px 20px;
+}
+.menu-div .menu-text a {
+    color: var(--white);
+    font-size: 14px;
+}
+.navbar-brand img {
+    max-width: 200px;
+}
+.header-other-btn {
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    font-size: 13px !important;
+    padding: 10px 10px !important;
+    color: var(--black-color);
+}
+.header-per-btn {
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-size: 13px !important;
+    padding: 10px 10px !important;
+    color: var(--white) !important;
+}
+.search-icon i {
+    color: var(--black-color);
+}
+.dropdown .dropdown-menu {
+    padding: 0px;
+}
+.dropdown .dropdown-menu .dropdown-item {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #e4701e;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.dropdown .dropdown-menu .dropdown-item:last-child {
+    border-bottom: 0px;
+}
+/*--- Header CSS  End ---*/
+
+/*--- Home Banner CSS Start ---*/
+.user-details-div {
+    /* height: calc(100vh - 80px); */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url('../../image/header-bg-baner.png');
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+}
+.user-details-div:before {
+	content: "";
+	background-color: rgb(0 0 0 / 16%);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.home-banner-contain-div {
+    padding-right: 5%;
+}
+.home-banner-contain-div h4 {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.home-banner-contain-div h3 {
+    color: var(--white);
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.home-banner-contain-div .common-para {
+    color: #c9c9c9;
+    font-size: 16px;
+}
+.banner-loan-calc-div {
+    background-color: #000000ad;
+    max-width: 580px;
+    margin: 0 auto;
+}
+.banner-loan-calc-contain-div {
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+.banner-loan-calc-contain-div h4 {
+    color: var(--white);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.banner-loan-calc-contain-div h3 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.banner-loan-calc-contain-div .common-para {
+    color: #b7b7b7;
+    font-size: 15px;
+}
+.emi-price {
+    color: var(--white);
+    font-weight: 600;
+    margin-left: 12px;
+    margin-bottom: 0px;
+}
+.header-banner-btn-div {
+    display: flex;
+    margin-top: 20px;
+}
+.header-banner-btn-div .common-btn-div .btn {
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 14px;
+    padding: 8px 20px;
+    font-weight: 400;
+    min-width: 120px;
+}
+.heightlight-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.header-banner-bottom-div {
+    background-color: var(--white);
+    padding: 10px;
+}
+.header-banner-bottom-div p {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 500;
+}
+/*--- Home Banner CSS End ---*/
+
+/* --- range Slider css start  ---*/
+.range-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  #range {
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 25px;
+  }
+  #range:focus {
+    outline: none;
+  }
+  
+  #range::before,
+  #range::after {
+    position: absolute;
+    top: 2rem;
+    color: #333;
+    font-size: 14px;
+    line-height: 1;
+    padding: 3px 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  #range::before {
+    left: 0;
+    content: attr(data-min);
+  }
+  #range::after {
+    right: 0;
+    content: attr(data-max);
+  }
+  
+  #range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      var(--main-color) var(--range-progress),  
+      #dee4ec var(--range-progress)
+    );
+    border-radius: 1rem;
+  }
+  #range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 0.25rem solid var(--main-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 255, 0.3);
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    transform: translateY(calc(-50% + 5px));
+  }
+  .big-amount {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.two-amount-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.first-amount {
+    color: #c5c5c5;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.sec-amount {
+    color: var(--white);
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* --- range Slider css end  ---*/
+
+/*--- Happy Client start css ---*/
+.happy-client-div {
+    background-image: url(../../image/sa-client-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.border-right-div {
+    border-right: 1px solid #c4c4c4;
+}
+.happy-client-box {
+    text-align: center;
+}
+.happy-client-box h4 {
+    font-size: 45px;
+    position: relative;
+    font-weight: 500;
+    color: var(--white);
+}
+.happy-client-box p {
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: var(--white);
+    font-weight: 500;
+}
+/*--- Happy Client end css ---*/
+
+/*--- inner banner css start ---*/
+.inner-banner-div {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url('../../image/bg-banner.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+}
+.inner-banner-div:before {
+    content: "";
+    background-color: rgb(0 0 0 / 45%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.inner-banner-heading {
+    text-align: center;
+    color: var(--white);
+    font-size: 50px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+/*--- inner banner css end ---*/
+
+/*--- Testimonials css start ---*/
+.testimonials-div {
+    position: relative;
+    background-color: var(--common-bg);
+}
+
+.testimonials-div .common-heading-text {
+    /* color: var(--white); */
+    position: relative;
+    z-index: 1;
+}
+.testimonials-div .common-para {
+    position: relative;
+    z-index: 1;
+}
+.testimonials-box-div {
+    background-color: var(--white);
+    padding: 25px 25px 25px 25px;
+    box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+}
+.star-div i {
+    font-size: 14px;
+}
+.star-div .fa-star {
+    color: #FFB800;
+}
+.star-div .fa-star-o {
+    color: var(--black-color);
+}
+.clients-details-div {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.clients-img-div {
+    max-width: 100px;
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 25px;
+}
+.clients-name h3 {
+    color: var(--black-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.clients-name p {
+    color: var(--main-color);
+    margin-bottom: 0px;
+    font-size: 15px;;
+}
+.testimonials-box-div .common-para {
+    font-size: 15px;
+    line-height: inherit;
+    margin-bottom: 0px;
+}
+/*--- Testimonials css end ---*/
+
+/* --- Footer css start --- */
+footer {
+    background-color: var(--black-color);
+}
+.top-footer-div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-common-ul-li-div ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.footer-common-ul-li-div ul li {
+    margin-bottom: 18px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+.footer-common-ul-li-div ul li:last-child {
+    margin-bottom: 0px;
+}
+.footer-common-ul-li-div ul li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 100;
+    color: #838383;
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    transform: unset;
+    font-size: 17px;
+}
+.footer-common-ul-li-div ul li a {
+    color: var(--white);
+}
+.footer-common-ul-li-div ul li a:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.footer-link-heading {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: var(--white);
+}
+.icon-box {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background: var(--main-color);
+    color: var(--white);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    margin-right: 6px;
+}
+.icon-box i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon-box:hover i {
+    color: var(--black-color);
+}
+.bottom-footer-div {
+    background-color: #0c0c0c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bottom-footer-flex-div p {
+    font-size: 13px;
+    color: var(--white);
+}
+.bottom-footer-flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.right-link-div img {
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 0px 5px;
+}
+/* --- Footer css end --- */
+
+/* --- Banking Service css start --- */
+.banking-service-list-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap:15px;
+    text-align: center;
+}
+.banking-service-list-div img {
+    border: 1px solid #ebebeb;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 16px rgb(0 0 0 / 10%);
+    margin-bottom: 15px;
+}
+
+/* --- Banking Service css end --- */
+
+/* --- Blog css start --- */
+.blog-heading-box {
+	background-color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+.blog-banner-img-div img {
+	width: 100%;
+	border-radius: 0px;
+}
+.blog-heading-text a {
+    color: var(--black-color);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+.blog-heading-text a:hover {
+	color: var(--main-color);
+}
+.blog-artical-btn-div {
+	margin-top: 10px;
+}
+.small-text-blog {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.read-more-btn {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    text-decoration: underline;
+}
+.blog-details-main-div {
+    margin-top: 160px;
+    margin-bottom: 60px;
+}
+.blog-details-img-div img {
+    width: 100%;
+    border-radius: 0px;
+}
+.blog-contains-div {
+    box-shadow: 0px 6px 16px rgb(0 0 0 / 25%);
+    padding: 15px 15px;
+    background-color: var(--white);
+}
+.blog-details-img-div {
+	margin-bottom: 30px;
+}
+.blog-details-heading {
+    color: #0e2b5c;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+}
+.blog-details-heading:after {
+	content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #fc5546;
+    bottom: -17px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.blog-small-heading {
+    color: #0e2b5c;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+/* --- Blog css end --- */
+
+/* --- Our Features css start --- */
+.our-features-grid-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap:15px;
+    text-align: center;
+}
+.our-features-box-div {
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    margin-bottom: 15px;
+}
+.our-features-box-div a {
+    text-decoration: none;
+    color: var(--black-color) !important;
+}
+.our-features-box-div img {
+    max-width: 45px;
+}
+.our-features-box-div h4 {
+    font-size: 16px;
+    color: var(--black-color);
+    margin-bottom: 0px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+/* --- Our Features css start --- */
+
+/* --- Loan Calculator css start --- */
+.loan-calculator-div {
+    margin-top: 50px;
+}
+.loan-calculator-box-div {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.heading-box {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 10px;
+}
+.heading-box h4 {
+    margin-bottom: 0px;
+    color: var(--white);
+    font-weight: 500;
+}
+.calculator-field-div {
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.fleld-grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fleld-box-main-div:last-child {
+    margin-bottom: 0px;
+}
+.fleld-box-main-div {
+    margin-top: 35px;
+}
+.calculator-padding-left-div {
+    padding-left: 5%;
+}
+.fleld-grid-box h5 {
+    font-size: 19px;
+    font-weight: 400;
+}
+/* --- Loan Calculator css end --- */
+
+/* --- Work Process css start --- */
+.Work-process-box-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Work-process-box-div img {
+    max-width: 125px;
+    width: 100%;
+}
+.Work-process-heading {
+    display: block;
+    color: var(--black-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.Work-process-heading:hover {
+    text-decoration: none;
+}
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    }
+    .hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    }
+    .video-list-main-div {
+
+    }
+    .video-list-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    column-gap:15px;
+    margin-bottom: 15px;
+    }
+    .video-list-div .common-para {
+        font-size: 15px;
+        line-height: inherit;
+        margin-bottom: 5px;
+    }
+    .video-list-div .date-text {
+        color: var(--black-color);
+        font-size: 13px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+    .video-text-div {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .video-text-div .common-btn-div {
+        margin-left: 10px;
+    }
+/* --- Work Process css end --- */
+
+
+/* - Responsive CSS - */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        max-width: 540px !important;
+    }
+    .common-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .common-btn-div .btn {
+    	font-size: 14px;
+    	padding: 10px 25px;
+    }
+    .common-small-text {
+    	font-size: 16px;
+    }
+    .common-heading-div {
+    	margin-bottom: 30px;
+    }
+    nav .navbar-nav .nav-item {
+        width: 100%;
+        padding-left: 0px !important;
+    }
+    .column-reverse {
+    	flex-direction: column-reverse;
+    }
+    .small-height-text {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .p-l-10-percentage {
+        padding-left: 0px;
+    }
+    .header-main-div .navbar {
+        padding: 0.5rem 0rem;
+    }
+    .header-main-div .navbar-nav {
+        background-color: var(--white);
+    }
+    nav .navbar-nav .nav-item .nav-link {
+        color: var(--black-color);
+    }
+    .navbar-toggler {
+        background-color: var(--main-color);
+    }
+    .navbar-toggler .navbar-toggler-icon i {
+        position: relative;
+        top: 6px;
+        color: var(--white);
+    }
+    nav .navbar-nav .nav-item {
+        margin-left: 0px;
+        border-bottom: 1px solid var(--gray-color);
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .user-short-text {
+    	padding: 20px;
+    	background-color: rgb(0 0 0 / 59%);
+    }
+    .user-short-text h1 {
+    	font-size: 30px;
+    }
+    .user-short-text .common-para {
+	    font-size: 16px;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+	.header-logo-text {
+	    font-size: 22px;
+	    letter-spacing: 0px;
+	}
+    .bottom-header-div {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+	.user-details-div {
+		padding: 45px 0px;
+		height: auto;
+	}
+    .loan-calculator-box-div {
+        margin-top: 30px;
+    }
+    .border-right-div {
+	    border-right: 0px;
+	}
+    .right-link-div img {
+        margin-bottom: 10px;
+    }
+	.happy-client-box {
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	}
+    .bottom-footer-div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+	.happy-client-box h4:after {
+	    margin: 8px auto 10px;
+	}
+    .inner-banner-heading {
+        font-size: 38px;
+    }
+    .inner-banner-div {
+        height: 400px;
+    }
+    .testimonials-div .common-para br {
+        display: none;
+    }
+    .clients-slider .slick-slide {
+        padding: 0px !important;
+    }
+    .testimonials-box-div {
+        padding: 30px 20px 30px 20px;
+    }
+    .clients-img-div {
+        max-width: 75px;
+    }
+    .clients-name h3 {
+        font-size: 20px;
+    }
+    .footer-link-heading {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .top-footer-div {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer-common-ul-li-div {
+        margin-bottom: 25px;
+    }
+    .col-md-3:last-child .footer-common-ul-li-div {
+        margin-bottom: 0px;
+    }
+    .bottom-footer-flex-div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .bottom-footer-flex-div p {
+        text-align: center;
+    }
+    .right-link-div {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu-div .menu-text {
+        margin: 0px 7px;
+    }
+    .menu-div {
+        flex-wrap: wrap;
+    }
+    .banking-service-list-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
+    .happy-client-box h4 {
+        font-size: 30px;
+    }
+    .our-features-grid-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .fleld-grid-box h5 {
+        font-size: 16px;
+    }
+    .blog-box-main-div {
+        margin-bottom: 25px;
+    }
+    .hs-responsive-embed-youtube {
+        margin-bottom: 15px;
+    }
+    .video-text-div {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+    }
+    .video-list-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 15px;
+        margin-bottom: 15px;
+    }
+    .banner-loan-calc-div {
+        margin-top: 30px !important;
+    }
+    .header-banner-btn-div .common-btn-div {
+        margin-bottom: 10px;
+    }
+    .header-banner-btn-div {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 750px !important;
+    }
+    .common-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .common-heading-div {
+	    margin-bottom: 30px;
+	}
+    .small-height-text {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .heightlight-mid-text {
+        font-size: 30px;
+    }
+    nav .navbar-nav .nav-item {
+        width: 100%;
+        padding-left: 0px !important;
+    }
+    .navbar-toggler {
+        background-color: var(--main-color);
+    }
+    .navbar-toggler .navbar-toggler-icon i {
+        position: relative;
+        top: 6px;
+        color: var(--white);
+    }
+    .header-main-div .navbar-nav {
+        background-color: var(--white);
+    }
+    nav .navbar-nav .nav-item .nav-link {
+        color: var(--black-color);
+    }
+    nav .navbar-nav .nav-item {
+        margin-left: 0px;
+        border-bottom: 1px solid var(--gray-color);
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .user-short-text {
+    	padding: 20px;
+    	background-color: rgb(0 0 0 / 59%);
+    }
+    .user-short-text h1 {
+    	font-size: 30px;
+    }
+    .user-short-text .common-para {
+	    font-size: 16px;
+	    margin-top: 15px;
+	    margin-bottom: 20px;
+	}
+	.header-logo-text {
+	    font-size: 22px;
+	    letter-spacing: 0px;
+	}
+	.user-details-div {
+		padding: 100px 0px;
+		height: auto;
+	}
+	.user-short-text {
+		max-width: 400px;
+	}
+    .inner-banner-heading {
+        font-size: 38px;
+    }
+    .inner-banner-div {
+        height: 300px;
+    }
+    .happy-client-box h4 {
+        font-size: 34px;
+    }
+    .happy-client-box p {
+        font-size: 14px;
+    }
+    .clients-slider .slick-slide {
+        padding: 20px !important;
+    }
+    .testimonials-box-div {
+        padding: 30px 20px 30px 20px;
+    }
+    .clients-img-div {
+        max-width: 75px;
+    }
+    .clients-name h3 {
+        font-size: 20px;
+    }
+    .clients-slider .slick-slide {
+        padding: 0px !important;
+    }
+    .testimonials-box-div {
+        padding: 30px 20px 30px 20px;
+    }
+    .clients-img-div {
+        max-width: 75px;
+    }
+    .clients-name h3 {
+        font-size: 20px;
+    }
+    .menu-div .menu-text a {
+        font-size: 12px;
+    }
+    .menu-div .menu-text {
+        margin: 0px 10px;
+    }
+    .footer-link-heading {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .footer-common-ul-li-div ul li {
+        margin-bottom: 13px;
+        font-size: 14px;
+        padding-left: 22px;
+    }
+    .right-link-div img {
+        margin-right: 4px;
+        max-width: 40px;
+    }
+    .bottom-footer-flex-div p {
+        font-size: 11.5px;
+    }
+    .banking-service-list-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+    }
+    .happy-client-box h4 {
+        font-size: 30px;
+    }
+    .our-features-grid-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Work-process-heading {
+        font-size: 14px;
+    }
+    .blog-box-main-div {
+        margin-bottom: 30px;
+    }
+    .fleld-grid-box h5 {
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1110px) {
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 11px !important;
+    }
+    .header-other-btn {
+        padding: 10px 5px !important;
+    }
+    nav .navbar-nav .nav-item {
+	    margin-left: 5px !important;
+	}
+}
+@media only screen and (min-width: 1111px) and (max-width: 1199px) {
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 12px !important;
+    }
+    .header-other-btn {
+        padding: 10px 5px !important;
+    }
+    nav .navbar-nav .nav-item {
+	    margin-left: 10px !important;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px !important;
+    }
+    .common-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .common-heading-div {
+    	margin-bottom: 35px;
+    }
+    .header-logo-text {
+    	font-size: 24px;
+    	letter-spacing: 0.5px;
+    }
+    .user-details-div {
+    	height: auto;
+    	padding: 130px 0px;
+    }
+    .user-short-text h1 {
+    	font-size: 40px;
+    }
+    .inner-banner-div {
+        height: 350px;
+    }
+    .inner-banner-heading {
+        font-size: 40px;
+    }
+    .footer-link-heading {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .footer-common-ul-li-div ul li {
+        margin-bottom: 13px;
+        font-size: 14px;
+        padding-left: 22px;
+    }
+    .right-link-div img {
+        margin-right: 4px;
+        max-width: 45px;
+    }
+    .bottom-footer-flex-div p {
+        font-size: 12px;
+    }
+    .banking-service-list-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+    }
+    .happy-client-box h4 {
+        font-size: 30px;
+    }
+    .our-features-grid-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .navbar-brand img {
+        max-width: 110px;
+    } 
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .navbar-brand img {
+        max-width: 150px;
+    }
+    nav .navbar-nav .nav-item {
+        margin-left: 12px;
+    }
+    .header-per-btn {
+        font-size: 13px !important;
+    }
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 1301px) and (max-width: 1440px) {
+    .container {
+        max-width: 1140px !important;
+    }
+    .common-padding {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .navbar-brand img {
+        max-width: 160px;
+    }
+    nav .navbar-nav .nav-item {
+        margin-left: 16px;
+    }
+    .header-per-btn {
+        font-size: 14px !important;
+    }
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .common-heading-text {
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1440px) { 
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+}
+
