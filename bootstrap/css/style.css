@@ -975,6 +975,9 @@ footer {
     .happy-client-box p {
         font-size: 20px;
     }
+    .Work-process-heading {
+        font-size: 22px;
+    }
     .our-features-grid-div {
         display: grid;
         grid-template-columns: 1fr 1fr;
