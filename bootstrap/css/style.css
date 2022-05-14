@@ -900,8 +900,8 @@ footer {
         margin-bottom: 10px;
     }
 	.happy-client-box {
-	    margin-bottom: 10px;
-	    margin-top: 10px;
+	    margin-bottom: 20px;
+	    margin-top: 20px;
 	}
     .bottom-footer-div {
         padding-top: 10px;
@@ -970,7 +970,10 @@ footer {
         column-gap: 15px;
     }
     .happy-client-box h4 {
-        font-size: 30px;
+        font-size: 36px;
+    }
+    .happy-client-box p {
+        font-size: 20px;
     }
     .our-features-grid-div {
         display: grid;
@@ -1005,6 +1008,11 @@ footer {
     .header-banner-btn-div {
         margin-top: 20px;
         flex-wrap: wrap;
+    }
+    .Work-process-box-div {
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 30px;
     }
 }
 
