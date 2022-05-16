@@ -131,6 +131,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
 .menu-div .menu-text {
     margin: 0px 20px;
 }
+.menu-div .menu-text img {
+    border-radius: 5px;
+}
 .menu-div .menu-text a {
     color: var(--white);
     font-size: 14px;
@@ -632,6 +635,16 @@ footer {
     border-radius: 2px;
     padding: 0px 5px;
 }
+.customer-rating-div {
+    margin-top: 25px;
+}
+.customer-rating-div p {
+    color: var(--white);
+    font-size: 18px;
+}
+.customer-rating-div .fa-star-o {
+    color: var(--white);
+}
 /* --- Footer css end --- */
 
 /* --- Banking Service css start --- */
@@ -957,7 +970,66 @@ footer {
     color: var(--main-color) !important;
     text-decoration: none;
 }
+.footer-map {
+    margin-top: 30px;
+}
+.footer-map iframe {
+    max-width: 280px;
+    border: 2px solid #e4701e !important;
+    border-radius: 5px;
+    height: 210px;
+    width: 100%;
+}
 /* --- Contact Us css end --- */
+
+/* Market place css start */
+.market-place-flex-div {
+    display: flex;
+}
+.market-place-flex-div .left-div {
+    width: 100%;
+    background-color: #F0EBEB;
+    padding: 30px;
+    display: grid;
+    align-items: center;
+}
+.market-place-flex-div .left-div a {
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+.market-place-flex-div .right-div {
+    width: 100%;
+}
+.market-place-flex-div .right-div img {
+    width: 100%;
+}
+.market-highlight-text {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.market-search-field-div .input-group {
+    margin-bottom: 0px;
+    max-width: 650px;
+    margin: -25px auto 0 auto;
+}
+.market-search-field-div .input-group input {
+    height: 50px;
+    box-shadow: unset !important;
+}
+.location-btn-box {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+.search-btn-box {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+/* Market place css end */
 
 /*--- pulse animation ---*/
 
@@ -1203,6 +1275,27 @@ footer {
         padding: 20px 15px;
         margin-bottom: 30px;
     }
+    .market-place-flex-div {
+        flex-wrap: wrap;
+    }
+    .market-place-flex-div .left-div {
+        padding: 30px 20px;
+    }
+    .market-highlight-text {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .market-search-field-div .input-group {
+        margin: 25px auto 0 auto;
+    }
+    .customer-rating-div {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .customer-rating-div .star-div {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1357,6 +1450,17 @@ footer {
         width: 100%;
         height: 300px;
     }
+    .market-highlight-text {
+        color: var(--main-color);
+        font-weight: 500;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .market-place-flex-div .left-div a {
+        font-size: 15px;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1110px) {
     nav .navbar-nav .nav-item .nav-link {
@@ -1484,7 +1588,11 @@ footer {
 
 @media only screen and (min-width: 1301px) and (max-width: 1440px) { 
     nav .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1660px) { 
+    nav .navbar-nav .nav-item .nav-link {
         font-size: 15px;
     }
 }
-

@@ -48,7 +48,8 @@
               <li class="menu-text"><a href="#">Partner Login</a></li>
               <li class="menu-text"><a href="#">Customer Service</a></li>
               <li class="menu-text"><a href="#">Apply Loan via</a></li>
-              <li class="menu-text"><a href="#">Download Our App</a></li>
+              <li class="menu-text"><a href="#"><img src="image/download-and.png" alt=""></a></li>
+              <li class="menu-text"><a href="#"><img src="image/download-apple.png" alt=""></a></li>
             </ul>
           </div>
         </div>
@@ -136,10 +137,21 @@
                     Other Loans
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link header-per-btn" href="#">
-                    Applay For Personal Loan
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle header-per-btn"
+                    href="#"
+                    id="navbardrop"
+                    data-toggle="dropdown"
+                  >
+                  Applay For Personal Loan
                   </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Via Website</a>
+                    <a class="dropdown-item" href="#">Via Our App</a>
+                    <a class="dropdown-item" href="#">Via What's Up</a>
+                    <a class="dropdown-item" href="#">Via Call</a>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -443,7 +455,7 @@
                   <div class="fleld-box-main-div">
                     <div class="fleld-grid-box">
                       <div class="title-text">
-                        <h5 class="mb-0">Loan Amount: $</h5>
+                        <h5 class="mb-0">Loan Amount: <i class="fa fa-inr" aria-hidden="true"></i></h5>
                       </div>
                       <div class="field-div">
                         <input type="text" class="form-control" id="usr" />
@@ -476,7 +488,7 @@
                   <div class="fleld-box-main-div mt-0">
                     <div class="fleld-grid-box mt-2">
                       <div class="title-text">
-                        <h5 class="mb-0">Loan Amount: $</h5>
+                        <h5 class="mb-0">Loan Amount: <i class="fa fa-inr" aria-hidden="true"></i></h5>
                       </div>
                       <div class="field-div">
                         <input type="text" class="form-control" id="usr" />
@@ -659,7 +671,7 @@
                   <div class="Work-process-box-div">
                     <img src="image/1.png" alt="icon" class="img-fluid" />
                     <a href="#" class="Work-process-heading"
-                      >Bank Neutral Advice</a
+                      >Repayment</a
                     >
                   </div>
                 </div>
@@ -831,7 +843,7 @@
     </div>
 
     <!-- video section -->
-    <div class="video-section-main-div common-padding pb-5">
+    <!-- <div class="video-section-main-div common-padding pb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -925,33 +937,84 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <!-- Market place section -->
+    <div class="market-place-div common-padding">
+      <div class="container">
+        <div class="market-place-flex-div">
+          <div class="left-div">
+            <div>
+              <img src="image/Logo.png" alt="" class="img-fluid">
+            <h4 class="market-highlight-text">India’s b2b marketplace</h4>
+            <a href="#">create your free product catalogue now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="right-div">
+            <img src="image/market-place-img.png" alt="image" class="img-fluid">
+          </div>
+        </div>
+        <div class="market-search-field-div">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text location-btn-box"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i> Surat</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Search for anything, anywhere in india">
+            <div class="input-group-append">
+              <span class="input-group-text search-btn-box"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
 
     <!-- Footer -->
     <footer>
       <div class="top-footer-div">
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
-              <div class="footer-common-ul-li-div">
-                <h5 class="footer-link-heading">Quick Links</h5>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Cookies</a></li>
-                  <li><a href="#">SiteMap</a></li>
-                  <li><a href="#">Careers</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="footer-common-ul-li-div">
-                <h5 class="footer-link-heading">Support</h5>
-                <ul>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="#">In the News</a></li>
-                  <li><a href="#">Reviews</a></li>
-                </ul>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="footer-common-ul-li-div">
+                    <h5 class="footer-link-heading">Quick Links</h5>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Cookies</a></li>
+                      <li><a href="#">SiteMap</a></li>
+                      <li><a href="#">Careers</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-common-ul-li-div">
+                    <h5 class="footer-link-heading">Support</h5>
+                    <ul>
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="contact-us.html">Contact Us</a></li>
+                      <li><a href="#">In the News</a></li>
+                      <li><a href="#">Reviews</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="customer-rating-div">
+                    <p class="texts">MyLoanCare Customer Ratings 
+                      <span class="star-div">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                    <b>4.0/5.0</b>
+                    </p>
+                    <div class="common-btn-div mt-2">
+                      <a href="#" class="btn">Apply Loan</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-md-3">
@@ -988,6 +1051,15 @@
                     ><i class="fa fa-youtube-play" aria-hidden="true"></i
                   ></a>
                 </div>
+              </div>
+              <div class="footer-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238132.63727384948!2d72.68220738859046!3d21.15946270544973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1652585673711!5m2!1sen!2sin"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
