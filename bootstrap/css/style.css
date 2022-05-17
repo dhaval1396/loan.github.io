@@ -122,14 +122,17 @@ nav .navbar-nav .nav-item .nav-link:hover {
 }
 .menu-div {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 .menu-div .menu-text {
-    margin: 0px 20px;
+    margin: 0px 15px;
+}
+.menu-div .menu-text .dropdown-toggle {
+    padding: 0px;
 }
 .menu-div .menu-text img {
     border-radius: 5px;
@@ -137,6 +140,17 @@ nav .navbar-nav .nav-item .nav-link:hover {
 .menu-div .menu-text a {
     color: var(--white);
     font-size: 14px;
+}
+.top-header-flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-btn-div .btn {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 15px;
 }
 .navbar-brand img {
     max-width: 200px;
@@ -645,6 +659,13 @@ footer {
 .customer-rating-div .fa-star-o {
     color: var(--white);
 }
+.and-img {
+    margin-top: 20px;
+}
+.and-img img {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
 /* --- Footer css end --- */
 
 /* --- Banking Service css start --- */
@@ -1047,6 +1068,107 @@ footer {
   
   /*--- pulse animation ---*/
 
+/* About us css start */
+.about-us-contains-div h6 {
+    color: var(--black-color);
+    margin-top: 20px;
+    font-size: 17px;
+}
+.about-us-img-div {
+    padding-left: 5%;
+}
+.about-secure-box {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+}
+.title-div h4 {
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+.about-us-secure-main-div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* About us css end */
+
+/* WHY CHOOSE US css start */
+.why-choose-us-div {
+    display: flex;
+    width: 100%;
+}
+.why-choose-left-side-div {
+    width: 100%;
+}
+.why-choose-right-side-div {
+    width: 100%;
+    background-color: var(--main-color);
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    align-items: center;
+}
+.why-choose-right-side-div h6 {
+    color: var(--white);    
+}
+.why-choose-right-side-div h3 {
+    color: var(--white);
+    margin-bottom: 25px;
+}
+.processbar-div .progress {
+    background-color: var(--black-color);
+    height: 10px;
+}
+.processbar-div .progress .progress-bar {
+    background-color: var(--white);
+}
+.text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.text-flex p {
+    color: var(--white);
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.processbar-div {
+    margin-bottom: 25px;
+}
+/* WHY CHOOSE US css end */
+
+/* Our Team css start */
+.our-team-div {
+    margin-bottom: 60px;
+}
+.our-team-box-div {
+    border: 2px solid #000000;
+    margin-bottom: 30px;
+}
+.our-team-box-div img {
+    width: 100%;
+}
+.our-team-box-div .contains-div {
+    padding: 20px;
+}
+.our-team-box-div h6 {
+    color: var(--black-color);
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 24px;
+}
+/* Our Team css end */
+
+
+
+
+
+
+
 /* - Responsive CSS - */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .container {
@@ -1296,6 +1418,19 @@ footer {
     .customer-rating-div .star-div {
         display: block;
     }
+    .about-secure-box {
+        margin-bottom: 20px;
+    }
+    .about-us-secure-main-div {
+        margin-bottom: 10px;
+    }
+    .about-us-img-div {
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .why-choose-us-div {
+        flex-wrap: wrap;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1461,6 +1596,12 @@ footer {
     .market-place-flex-div .left-div a {
         font-size: 15px;
     }
+    .why-choose-right-side-div {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1110px) {
     nav .navbar-nav .nav-item .nav-link {
@@ -1546,6 +1687,12 @@ footer {
     .banner-loan-calc-padding-div {
         padding-right: 5%;
     }
+    .why-choose-right-side-div {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
     .navbar-brand img {
@@ -1559,6 +1706,12 @@ footer {
     }
     nav .navbar-nav .nav-item .nav-link {
         font-size: 13px;
+    }
+    .why-choose-right-side-div {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 }
 @media only screen and (min-width: 1301px) and (max-width: 1440px) {
@@ -1584,6 +1737,12 @@ footer {
     .common-heading-text {
         margin-bottom: 35px;
     }
+    .why-choose-right-side-div {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1440px) { 
@@ -1594,5 +1753,11 @@ footer {
 @media only screen and (min-width: 1441px) and (max-width: 1660px) { 
     nav .navbar-nav .nav-item .nav-link {
         font-size: 15px;
+    }
+    .why-choose-right-side-div {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

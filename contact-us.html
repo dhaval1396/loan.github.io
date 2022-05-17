@@ -43,14 +43,32 @@
       <div class="top-header-div">
         <div class="container">
           <div class="top-header-menu-div">
-            <ul class="menu-div">
-              <li class="menu-text"><a href="#">Customer Area</a></li>
-              <li class="menu-text"><a href="#">Partner Login</a></li>
-              <li class="menu-text"><a href="#">Customer Service</a></li>
-              <li class="menu-text"><a href="#">Apply Loan via</a></li>
-              <li class="menu-text"><a href="#"><img src="image/download-and.png" alt=""></a></li>
-              <li class="menu-text"><a href="#"><img src="image/download-apple.png" alt=""></a></li>
-            </ul>
+            <div class="top-header-flex-div"> 
+              <div class="download-btn-div">
+                <a href="#" class="btn">Download Our App</a>
+              </div>
+              <ul class="menu-div">
+                <li class="menu-text"><a href="#">Customer Area</a></li>
+                <li class="menu-text"><a href="#">Partner Login</a></li>
+                <li class="menu-text"><a href="#">Customer Service</a></li>
+                <li class="menu-text dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbardrop"
+                    data-toggle="dropdown"
+                  >
+                  Apply Loan via
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Via Website</a>
+                      <a class="dropdown-item" href="#">Via Our App</a>
+                      <a class="dropdown-item" href="#">Via What's Up</a>
+                      <a class="dropdown-item" href="#">Via Call</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -137,21 +155,10 @@
                     Other Loans
                   </a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle header-per-btn"
-                    href="#"
-                    id="navbardrop"
-                    data-toggle="dropdown"
-                  >
-                  Applay For Personal Loan
+                <li class="nav-item">
+                  <a class="nav-link header-per-btn" href="#">
+                    Applay For Personal Loan
                   </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Via Website</a>
-                    <a class="dropdown-item" href="#">Via Our App</a>
-                    <a class="dropdown-item" href="#">Via What's Up</a>
-                    <a class="dropdown-item" href="#">Via Call</a>
-                  </div>
                 </li>
               </ul>
             </div>
@@ -426,7 +433,7 @@
                   <div class="footer-common-ul-li-div">
                     <h5 class="footer-link-heading">Quick Links</h5>
                     <ul>
-                      <li><a href="#">About Us</a></li>
+                      <li><a href="about-us.html">About Us</a></li>
                       <li><a href="#">Cookies</a></li>
                       <li><a href="#">SiteMap</a></li>
                       <li><a href="#">Careers</a></li>
@@ -458,6 +465,9 @@
                     </p>
                     <div class="common-btn-div mt-2">
                       <a href="#" class="btn">Apply Loan</a>
+                    </div>
+                    <div class="and-img">
+                      <img src="image/download-and.png" alt="icon">
                     </div>
                   </div>
                 </div>
