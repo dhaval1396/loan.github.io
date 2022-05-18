@@ -1162,11 +1162,288 @@ footer {
     font-size: 24px;
 }
 /* Our Team css end */
+.border-bottom {
+    border-bottom: 1px solid #dddddd;
+}
+.loan-calsection-main-div {
+    margin-top: 50px;
+}
+.loan-cal-box-div {
+    background-color: var(--black-color);
+    padding: 5%;
+    border-radius: 5px;
+}
+.loan-cal-box-div .range-slider .small-text {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+}
+.white-btn {
+    background-color: var(--white);
+    padding: 10px 6px;
+    text-align: center;
+    color: var(--main-color) !important;
+    display: block;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+.final-amount-div {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.final-amount-div h4 {
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.final-amount-div .common-btn-div {
+    margin-left: 15px;
+}   
+.final-amount-div .btn {
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+.multibtn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.multibtn-div .btn {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.loan-eligibility-div {
+    width: 100%;
+    background-image: url('../../image/loan-eligibility-bg-banner.png');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+.loan-eligibility-div::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a6;
+    top: 0px;
+    left: 0px;
+}
+.loan-eligibility-form-div {
+    position: relative;
+    z-index: 9; 
+}
+.form-field-div {
+    margin-bottom: 30px;
+}
+.form-field-div .title-text {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form-field-div .input-group-text {
+    background-color: var(--main-color);
+    border: 1px solid #E4701E;
+    color: var(--white);
+}
+.form-field-div input {
+    border: 1px solid #E4701E;
+}
+.doc-contain-div {
+    margin-bottom: 25px;
+}
+.doc-contain-div h6 {
+    color: var(--black-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.number-list-div ol {
+    padding-left: 20px;
+}
+.number-list-div ol li {
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.common-list-div ul {
+    padding: 0px;
+}
+.common-list-div ul li {
+    position: relative;
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    list-style-type: none;
+    padding-left: 25px;
+}
+.common-list-div ul li::before {
+    font-family: FontAwesome;
+    content: "\f111";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 100;
+    color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    transform: unset;
+    font-size: 14px;
+}
+.contain-flex-div {
+    display: flex;
+    width: 100%;
+}
+.contain-flex-div .left-side-div {
+    padding: 6%;
+    background-color: var(--main-color);
+    width: 100%;
+}
+.contain-flex-div .right-side-div {
+    padding: 6%;
+    background-color: var(--common-bg);
+    width: 100%;
+}
+.contain-flex-div .left-side-div h4 {
+    color: var(--white);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contain-flex-div .left-side-div ul {
+    padding: 0px;
+}
+.contain-flex-div .left-side-div ul li {
+    position: relative;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    list-style-type: none;
+    padding-left: 25px;
+}
+.contain-flex-div .left-side-div ul li:before {
+    font-family: FontAwesome;
+    content: "\f05d";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 100;
+    color: var(--white);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: unset;
+    font-size: 16px;
+}
+.contain-flex-div .left-side-div {
+    padding: 6%;
+    background-color: var(--main-color);
+    width: 100%;
+}
+.contain-flex-div .right-side-div {
+    padding: 6%;
+    background-color: var(--common-bg);
+    width: 100%;
+}
 
-
-
-
-
+.contain-flex-div .right-side-div h4 {
+    color: var(--black-color);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contain-flex-div .right-side-div ul {
+    padding: 0px;
+}
+.contain-flex-div .right-side-div ul li {
+    position: relative;
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    list-style-type: none;
+    padding-left: 25px;
+}
+.contain-flex-div .right-side-div ul li:before {
+    font-family: FontAwesome;
+    content: "\f05d";
+    display: inline-block;
+    padding-right: 0px;
+    vertical-align: middle;
+    font-weight: 100;
+    color: var(--main-color);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: unset;
+    font-size: 16px;
+}
+.common-table-div thead tr {
+    background-color: var(--main-color) !important;
+}
+.common-table-div tr:nth-child(even) {
+    background-color: var(--main-color);
+}
+.common-table-div tr:nth-child(odd) {
+    background-color: var(--common-bg);
+}
+.common-table-div tr td {
+    color: var(--black-color);
+    font-weight: 500;
+}
+.common-table-div .table-bordered td, .common-table-div .table-bordered th {
+    border: 0px;
+}
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f077";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f078"; 
+}
+.accordion .card-header {
+    border: 1px solid var(--black-color);
+    border-radius: 50px !important;
+    background-color: var(--white);
+    color: var(--black-color);
+    margin-bottom: 20px !important;
+}
+.accordion .card-header.active {
+    background-color: var(--main-color);
+    border: 1px solid #e4701e;
+}
+.accordion .card-header.active a {
+    color: var(--white);
+}
+.accordion .card-header.active:after  {
+    color: #ffffff;
+}
+.accordion .card-header.active.collapsed:after  {
+    color: #ffffff;
+}
+.accordion .card-header a {
+    color: var(--black-color);
+    font-size: 16px;
+    padding-left: 5px;
+}
+.accordion .card {
+    border: 0px;
+}
+.accordion .card-body {
+    padding-top: 0px;
+}
+.accordion .card-body p {
+    color: var(--gray-color);
+}
 
 
 /* - Responsive CSS - */
@@ -1431,6 +1708,25 @@ footer {
     .why-choose-us-div {
         flex-wrap: wrap;
     }
+    .multibtn-div {
+        flex-wrap: wrap;
+    }
+    .contain-flex-div {
+        flex-wrap: wrap;
+    }
+    .multibtn-div .btn {
+        margin-top: 10px;
+    }
+    .final-amount-div {
+        flex-wrap: wrap;
+    }
+    .final-amount-div .common-btn-div {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .loan-cal-contain-div {
+        margin-top: 35px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1601,6 +1897,12 @@ footer {
         padding-bottom: 3%;
         padding-left: 3%;
         padding-right: 3%;
+    }
+    .multibtn-div {
+        flex-wrap: wrap;
+    }
+    .multibtn-div .btn {
+        margin-top: 10px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1110px) {
