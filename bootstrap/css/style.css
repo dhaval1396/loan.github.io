@@ -149,7 +149,7 @@ nav .navbar-nav .nav-item .nav-link:hover {
 .download-btn-div .btn {
     border: 2px solid #ffffff;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     padding: 5px 15px;
 }
 .navbar-brand img {
@@ -938,9 +938,9 @@ footer {
 }
 .contact-info-text {
     color: var(--black-color);
-    font-size: 21px;
+    font-size: 20px;
     margin-bottom: 0px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .contact-contain-div {
     padding-left: 5%;
@@ -1444,7 +1444,39 @@ footer {
 .accordion .card-body p {
     color: var(--gray-color);
 }
-
+.disclosure-text {
+    color: #cbcbcb;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.short-msg-div {
+    width: 100%;
+    background-image: url('../../image/ready-to-start-bg-banner.jpg');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+.short-msg-div::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000a6;
+    top: 0px;
+    left: 0px;
+}
+.contains-divs {
+    position: relative;
+    z-index: 9;
+}
+.contains-divs .common-heading-text {
+    color: var(--white);
+}
+.contains-divs .common-para {
+    color: var(--white);
+}
 
 /* - Responsive CSS - */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
