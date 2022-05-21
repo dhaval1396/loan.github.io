@@ -173,17 +173,32 @@ nav .navbar-nav .nav-item .nav-link:hover {
     color: var(--black-color);
 }
 .dropdown .dropdown-menu {
-    padding: 0px;
+    padding: 15px 0px;
+    background-color: var(--main-color);
+    border-radius: 0px;
 }
 .dropdown .dropdown-menu .dropdown-item {
     font-size: 15px;
     font-weight: 400;
-    background-color: #e4701e;
     color: #ffffff;
-    border-bottom: 1px solid #ffffff;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    margin-bottom: 10px;
+    position: relative;
 }
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #000000;
+    font-weight: 600;
+}
+/* .dropdown .dropdown-menu .dropdown-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 35px;
+    height: 3px;
+    z-index: 9999;
+    background-color: black;    
+} */
 .dropdown .dropdown-menu .dropdown-item:last-child {
     border-bottom: 0px;
 }
@@ -1450,6 +1465,9 @@ footer {
     font-size: 14px;
     margin-bottom: 0px;
     margin-top: 20px;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    text-align: center;
 }
 .short-msg-div {
     width: 100%;
@@ -1521,11 +1539,12 @@ footer {
 /* Login css start */
 .form-main-div {
     display: grid;
-    grid-template-columns: 35% 65%;
     align-items: center;
     min-height: 100vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-.banner-div {
+/* .banner-div {
     width: 100%;
     background-image: url('../../image/login-bg.jpg');
     background-size: cover;
@@ -1533,9 +1552,13 @@ footer {
     position: relative;
     background-repeat: no-repeat;
     height: 100%;
-}
+} */
 .form-field-box-div {
-    padding: 5% 10%;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px;
 }
 .form-logo-div {
     text-align: center;
@@ -1855,11 +1878,6 @@ footer {
     .loan-cal-contain-div {
         margin-top: 35px;
     }
-    .form-main-div {
-        grid-template-columns: 1fr;
-        align-items: center;
-        min-height: auto;
-    }
     .form-field-box-div {
         padding: 30px 15px;
     }
@@ -2044,9 +2062,6 @@ footer {
     .multibtn-div .btn {
         margin-top: 10px;
     }
-    .form-main-div {
-        grid-template-columns: 50% 50%;
-    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1110px) {
     nav .navbar-nav .nav-item .nav-link {
@@ -2137,9 +2152,6 @@ footer {
         padding-bottom: 4%;
         padding-left: 4%;
         padding-right: 4%;
-    }
-    .form-main-div {
-        grid-template-columns: 40% 60%;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
