@@ -1873,6 +1873,51 @@ footer {
     position: relative;
     background-repeat: no-repeat;
 }
+.my-profile-left-div {
+    box-shadow: 0px 9px 16px rgb(0 0 0 / 16%);
+    padding: 20px;
+}
+.editing-field-div {
+    
+}
+.editing-field-div .form-group {
+    position: relative;
+}
+.editing-field-div .form-group input , .editing-field-div .form-group textarea {
+    font-weight: 500;
+    color: var(--black-color);
+    padding-right: 30px;
+}
+.edit-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    color: var(--black-color);
+    font-weight: bold !important;
+    cursor: pointer;
+}
+.upload-image-btn input {
+    border-bottom: 0px;
+}
+.ques-ans-div {
+    margin-bottom: 20px;
+}
+.feedback-form-div {
+    box-shadow: 0px 9px 16px rgb(0 0 0 / 16%);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.my-account-form-details-div {
+    margin-top: 50px;
+}
+.multi-loan-div {
+    max-height: 110px;
+    overflow: auto;
+}
+.market-contains-text {
+    width: 100%;
+}
 /* Market css start */
 
 
