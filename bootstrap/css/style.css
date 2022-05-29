@@ -83,6 +83,9 @@ body {
     width: 100%;
     z-index: 99;
 }
+.sticky-header .top-header-div {
+    display: none;
+}
 .header-logo-text {
     color: var(--main-color);
     font-size: 32px;
@@ -201,6 +204,9 @@ nav .navbar-nav .nav-item .nav-link:hover {
 } */
 .dropdown .dropdown-menu .dropdown-item:last-child {
     border-bottom: 0px;
+}
+.mobile-icon {
+    display: none !important;
 }
 /*--- Header CSS  End ---*/
 
@@ -1973,6 +1979,8 @@ footer {
     }
     nav .navbar-nav .nav-item .nav-link {
         color: var(--black-color);
+        padding-left: 30px;
+        position: relative;
     }
     .navbar-toggler {
         background-color: var(--main-color);
@@ -2086,6 +2094,9 @@ footer {
     }
     .menu-div {
         flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 5px;
     }
     .banking-service-list-div {
         display: grid;
@@ -2093,13 +2104,19 @@ footer {
         column-gap: 15px;
     }
     .happy-client-box h4 {
-        font-size: 36px;
+        font-size: 22px;
     }
     .happy-client-box p {
-        font-size: 20px;
+        font-size: 16px;
+    word-break: break-word;
     }
     .Work-process-heading {
-        font-size: 22px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .Work-process-box-div img {
+        max-width: 100px;
+        width: 100%;
     }
     .our-features-grid-div {
         display: grid;
@@ -2283,6 +2300,28 @@ footer {
     .my-account-footer-div {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+    }
+    .top-header-flex-div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dropdown .dropdown-menu {
+        padding: 5px 0px;
+        background-color: var(--white);
+        border-radius: 0px;
+        border: 0px;
+    }
+    .dropdown .dropdown-menu .dropdown-item {
+        color: var(--black-color);
+    }
+    .mobile-icon {
+        display: block !important;
+        position: absolute;
+        left: 0px;
+        top: 12px;
+    }
+    .search-icon {
+        padding-left: 0px !important;
     }
 }
 
