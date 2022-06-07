@@ -653,16 +653,28 @@ footer {
 }
 .bottom-footer-div {
     background-color: #0c0c0c;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 .bottom-footer-flex-div p {
     font-size: 13px;
     color: var(--white);
 }
+.bottom-footer-flex-div .common-para a {
+    color: var(--main-color);
+    text-decoration: none !important;
+    font-weight: 500;
+}
 .bottom-footer-flex-div {
     display: flex;
     justify-content: space-between;
+}
+.bottom-footer-contains-div {
+    margin-top: 30px;
+}
+.bottom-footer-contains-div .common-para {
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 .right-link-div img {
     margin-left: 10px;
@@ -1507,7 +1519,7 @@ footer {
     box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 30px 30px;
-    min-height: 275px;
+    min-height: 330px;
 }
 .advantages-box-div {
     margin-top: 40px;
@@ -1528,11 +1540,13 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 40px;
 }
 .advantage-box-div h4 {
     text-align: left;
     margin-bottom: 10px;
     color: var(--black-color);
+    font-size: 22px;
 }
 .advantage-box-div .common-para {
     margin-bottom: 0px;
@@ -1541,6 +1555,52 @@ footer {
 .What-we-are-offering-div .our-features-grid-div {
     margin-top: 40px;
 }
+.Flexible-Repayment-options-div {
+    background-image: url(../../image/sa-client-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.white-text-heading h3 {
+    margin-bottom: 12px !important;
+}
+.short-contains-div h4 {
+    color: var(--white);
+}
+.white-text-heading h3 , .white-text-heading .common-para {
+    color: var(--white);
+}
+.short-contains-div h4 {
+    color: var(--main-color);
+}
+.short-contains-div {
+    background-color: #0000008c;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.how-to-apply-sub-div {
+    margin-top: 30px;
+}
+.how-to-apply-box-div {
+    box-shadow: 0px 6px 16px rgb(0 0 0 / 10%);
+    padding: 25px 20px;
+    text-align: center;
+}
+.how-to-apply-box-div img {
+    width: 75px;
+    margin-bottom: 20px;
+}
+.how-to-apply-box-div h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.how-to-apply-box-div .btn {
+    font-size: 13px;
+    padding: 8px 15px;
+    min-width: 140px;
+} 
 
 /* Login css start */
 .form-main-div {
@@ -2326,6 +2386,12 @@ footer {
     }
     .search-icon {
         padding-left: 0px !important;
+    }
+    .advantage-box-div {
+        min-height: inherit;
+    }
+    .how-to-apply-box-div {
+        margin-bottom: 30px;
     }
 }
 
